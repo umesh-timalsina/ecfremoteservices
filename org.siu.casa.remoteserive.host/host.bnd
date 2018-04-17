@@ -1,0 +1,4 @@
+Private-Package: org.siu.casa.remoteservice.host
+Bundle-Activator: org.siu.casa.remoteservice.host.Activator
+Bundle-Version: 1.0.0.SNAPSHOT
+-snapshot: ${tstamp}

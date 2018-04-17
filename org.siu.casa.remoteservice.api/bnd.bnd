@@ -1,0 +1,4 @@
+-buildpath: \
+	osgi.core;version=6.0,\
+	pi4j-core;version=1.1
+-sub: *.bnd

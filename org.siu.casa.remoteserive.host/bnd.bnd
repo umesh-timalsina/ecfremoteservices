@@ -1,0 +1,7 @@
+-buildpath: \
+	org.siu.casa.remoteservice.api.apibundle;version=latest,\
+	osgi.annotation,\
+	osgi.cmpn,\
+	pi4j-core;version=1.1,\
+	osgi.core;version=6.0
+-sub: *.bnd

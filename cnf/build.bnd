@@ -8,6 +8,25 @@
 		name = Central; \
 		location = ~/.bnd/shacache; \
 		index = ${build}/central.json
+		
+-plugin.maven-central = \
+    aQute.bnd.repository.maven.pom.provider.BndPomRepository; \
+        snapshotUrls=https://oss.sonatype.org/content/repositories/osgi/; \
+        releaseUrls=https://repo.maven.apache.org/maven2/; \
+        pom=${build}/central.xml; \
+        name=Maven Central Dependencies
+		
+
+
+-plugin.1.ECFATCENTRAL: \
+	aQute.bnd.deployer.repository.wrapper.Plugin; \
+		location = "${build}/cache/wrapper"; \
+		reindex = true, \
+	aQute.bnd.jpm.Repository; \
+		includeStaged = true; \
+		name = ECF At Central; \
+		location = ~/.bnd/shacache; \
+		index = ${build}/ecfatcentral.json
 
 -plugin.2.Local: \
 	aQute.bnd.deployer.repository.LocalIndexedRepo; \

@@ -1,0 +1,5 @@
+-buildpath: \
+	osgi.annotation;version=6.0,\
+	osgi.cmpn;version=6.0,\
+	org.siu.casa.remoteservice.api.apibundle;version=latest
+-sub: *.bnd
