@@ -6,8 +6,7 @@ import org.osgi.service.component.annotations.Component;
 
 @Component(property= {"service.exported.interfaces=*", 
 					  "ecf.generic.server.port=3250",
-					  "ecf.generic.server.hostname=131.230.217.97",
-					  "ecf.generic.server.id=ecftcp://131.230.217.97:3250/rpiservice",
+					  "ecf.generic.server.hostname=localhost",
 					  "service.exported.configs=ecf.generic.server"
 					}
 )

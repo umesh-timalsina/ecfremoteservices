@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1523714524000" name="Local" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1524014388311" name="Local" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="org.eclipse.ecf.console"/>
@@ -373,34 +373,34 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="org.eclipse.ecf.osgi.services.remoteserviceadmin"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="4.6.300.v20180412-1942"/>
+      <attribute name="version" type="Version" value="4.6.300.v20180417-2217"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="9d1f47be1c7c72f992eec9b2997034a3be3a222c45e93658bdad63f13cd18674"/>
-      <attribute name="url" value="org.eclipse.ecf.osgi.services.remoteserviceadmin/org.eclipse.ecf.osgi.services.remoteserviceadmin-4.6.300.jar"/>
-      <attribute name="size" type="Long" value="224930"/>
+      <attribute name="osgi.content" value="75249e96c8da87b466a16510a827faec4d3503779c7cadfe8447c4957cfe0cff"/>
+      <attribute name="url" value="org.eclipse.ecf.osgi.services.remoteserviceadmin/org.eclipse.ecf.osgi.services.remoteserviceadmin_4.6.300.v20180417-2217.jar"/>
+      <attribute name="size" type="Long" value="225137"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="org.eclipse.ecf.osgi.services.remoteserviceadmin"/>
-      <attribute name="bundle-version" type="Version" value="4.6.300.v20180412-1942"/>
+      <attribute name="bundle-version" type="Version" value="4.6.300.v20180417-2217"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="org.eclipse.ecf.osgi.services.remoteserviceadmin"/>
-      <attribute name="bundle-version" type="Version" value="4.6.300.v20180412-1942"/>
+      <attribute name="bundle-version" type="Version" value="4.6.300.v20180417-2217"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="org.eclipse.ecf.internal.osgi.services.remoteserviceadmin"/>
       <attribute name="version" type="Version" value="0.0.0"/>
       <attribute name="bundle-symbolic-name" value="org.eclipse.ecf.osgi.services.remoteserviceadmin"/>
-      <attribute name="bundle-version" type="Version" value="4.6.300.v20180412-1942"/>
+      <attribute name="bundle-version" type="Version" value="4.6.300.v20180417-2217"/>
       <directive name="x-internal" value="true"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="org.eclipse.ecf.osgi.services.remoteserviceadmin"/>
       <attribute name="version" type="Version" value="1.3.0"/>
       <attribute name="bundle-symbolic-name" value="org.eclipse.ecf.osgi.services.remoteserviceadmin"/>
-      <attribute name="bundle-version" type="Version" value="4.6.300.v20180412-1942"/>
+      <attribute name="bundle-version" type="Version" value="4.6.300.v20180417-2217"/>
     </capability>
     <capability namespace="osgi.extender">
       <attribute name="osgi.extender" value="osgi.remoteserviceadmin"/>

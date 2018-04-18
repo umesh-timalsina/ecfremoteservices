@@ -1,17 +1,8 @@
--runproperties: org.osgi.service.http.port = 9090
--runpath: biz.aQute.remote.launcher
--runremote: \
-	pi; \
-		jdb=1044; \
-		host=131.230.217.97; \
-		shell=-1
 -runfw: org.apache.felix.framework;version='[5.4.0,5.4.0]'
 -runee: JavaSE-1.8
 -runsystemcapabilities: ${native_capability}
 
 -resolve.effective: active;skip:="osgi.service"
-
-
 
 -runrequires: \
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)',\
