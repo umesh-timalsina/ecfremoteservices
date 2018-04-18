@@ -1,17 +1,22 @@
 package org.siu.casa.remoteservice.host;
 
 import org.siu.casa.remoteservice.api.IRaspberryPiService;
+
 import com.pi4j.io.gpio.GpioPinDigitalOutput;
 import com.pi4j.io.gpio.PinState;
 
 public class RaspberryPiService implements IRaspberryPiService{
-	private GpioPinDigitalOutput ledPin;
+	//private GpioPinDigitalOutput ledPin;
 	private GpioPinDigitalOutput doorPin;
+	
+	Boolean bool = Boolean.FALSE;
+	
 	@Override
 	public Boolean turnOnLed() {
-		ledPin.setState(PinState.HIGH);
+		//ledPin.setState(PinState.HIGH);
 		System.out.println("TurnOnLed service called from remote consumer");
-		return new Boolean(ledPin.getState().isHigh());
+		bool = true;
+		return bool;
 	} // end method turnOnLed
 
 	@Override
@@ -23,9 +28,10 @@ public class RaspberryPiService implements IRaspberryPiService{
 	
 	@Override
 	public Boolean turnOffLed() {
-		ledPin.setState(PinState.LOW);
+		//ledPin.setState(PinState.LOW);
 		System.out.println("TurnOffLed service called from remote consumer");
-		return ledPin.getState().isLow();
+		bool = false;
+		return bool;
 	}// end method turnOffLed
 
 	@Override
